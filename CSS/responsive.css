@@ -1,7 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* Page Responsive inplementing */
 
 @media (max-width: 845px) {
   .header__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 
     padding: 50px;
@@ -10,12 +20,17 @@
     text-align: center;
   }
   .email-block {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .nav-link {
     width: 50%;
   }
   .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 316px;
   }
@@ -67,6 +82,9 @@
   }
   .email-block {
     width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .email-input,
@@ -80,14 +98,33 @@
   .email-input {
     margin-bottom: 12px;
   }
+  .email-input::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .email-input::-moz-placeholder {
+    text-align: center;
+  }
+  .email-input:-ms-input-placeholder {
+    text-align: center;
+  }
+  .email-input::-ms-input-placeholder {
+    text-align: center;
+  }
   .email-input::placeholder {
     text-align: center;
   }
   .texts-block {
     width: 100%;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
   .h1 {
