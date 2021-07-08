@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap");
@@ -9,8 +16,13 @@
 
 .nav {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   padding: 10px;
   background-color: #ffffff;
@@ -18,7 +30,11 @@
 }
 
 .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 35%;
 }
@@ -38,11 +54,18 @@
 .blue-primary__border {
   border-radius: 50px;
   background-color: #0285e4;
+  -webkit-box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
   width: 158px;
   height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   font-family: "Nurito", sans-serif;
 }
@@ -56,8 +79,13 @@
 
 .header__container {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .texts-block {
@@ -89,6 +117,34 @@
   margin-right: 8px;
 }
 
+.email-input::-webkit-input-placeholder {
+  padding-left: 20px;
+  color: #5c5c5c;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.email-input::-moz-placeholder {
+  padding-left: 20px;
+  color: #5c5c5c;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.email-input:-ms-input-placeholder {
+  padding-left: 20px;
+  color: #5c5c5c;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.email-input::-ms-input-placeholder {
+  padding-left: 20px;
+  color: #5c5c5c;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
 .email-input::placeholder {
   padding-left: 20px;
   color: #5c5c5c;
@@ -97,6 +153,8 @@
 }
 
 .email-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -105,8 +163,14 @@
   height: 640px;
   background-color: #ffffff;
   border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 30px;
 }
@@ -119,9 +183,18 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 100px 199px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -146,6 +219,8 @@
 
 /* Facebook block */
 .facebook-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 62px 0px 7px;
 }
@@ -163,7 +238,11 @@
 
 .facebook-text {
   width: 757px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 40px;
   font-family: "Roboto", sans-serif;
@@ -185,13 +264,22 @@
   width: 100%;
   padding: 15px;
   background-color: #112d57;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
