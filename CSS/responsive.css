@@ -1,0 +1,175 @@
+/* Page Responsive inplementing */
+
+@media (max-width: 845px) {
+  .header__container {
+    flex-direction: column;
+
+    padding: 50px;
+  }
+  .texts-block {
+    text-align: center;
+  }
+  .email-block {
+    justify-content: center;
+  }
+  .nav-link {
+    width: 50%;
+  }
+  .footer {
+    flex-direction: column;
+    height: 316px;
+  }
+}
+@media (max-width: 772px) {
+  .facebook-block,
+  .facebook-text {
+    width: 150%;
+  }
+}
+
+@media (max-width: 750px) {
+  .nav-link {
+    width: 60%;
+  }
+  .nav-links {
+    margin-right: 30px;
+  }
+  .resetMargin {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .nav-links {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 592px) {
+  .section-p {
+    width: 300px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .nav-link {
+    display: none;
+  }
+  .phone1 {
+    display: none;
+  }
+  .phone-img {
+    width: 100%;
+    height: 900px;
+  }
+  .media-img {
+    display: block;
+    width: 90%;
+  }
+  .email-block {
+    width: 100%;
+    flex-direction: column;
+  }
+  .email-input,
+  .mediaButtonHeight {
+    margin: 0px;
+    width: 100%;
+  }
+  .mediaButtonHeight {
+    height: 70px;
+  }
+  .email-input {
+    margin-bottom: 12px;
+  }
+  .email-input::placeholder {
+    text-align: center;
+  }
+  .texts-block {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .h1 {
+    max-width: 263px;
+  }
+  .texts-p {
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 300px;
+  }
+  .section {
+    padding: 100px;
+  }
+  .blue-line {
+    max-width: 228px;
+  }
+  .grey-line {
+    max-width: 93px;
+  }
+  .facebook-text {
+    max-width: 315px;
+  }
+  .section-p {
+    width: 264px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .section-titles {
+    width: 264px;
+  }
+  .navBar-img {
+    display: block;
+  }
+  .span1 {
+    display: none;
+  }
+  .span2 {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 500px) {
+  .phone-img {
+    height: 800px;
+  }
+}
+
+@media (max-width: 450px) {
+  .phone-img {
+    height: 700px;
+  }
+}
+@media (max-width: 400px) {
+  .phone-img {
+    height: 600px;
+  }
+}
+@media (max-width: 370px) {
+  .phone-img {
+    height: 530px;
+  }
+}
+@media (max-width: 340px) {
+  .phone-img {
+    height: 460px;
+  }
+}
+
+@media (max-width: 336px) {
+  .blue-line {
+    max-width: 200px;
+  }
+  .grey-line {
+    max-width: 60px;
+  }
+  .facebook-text {
+    max-width: 250px;
+  }
+  .website-logo {
+    width: 100%;
+  }
+  .last-text {
+    text-align: center;
+  }
+}
